@@ -1,0 +1,110 @@
+<svg width="640" height="220" viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    text {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 13px;
+    }
+    .title { font-size: 14px; font-weight: bold; fill: #39ff14; }
+    .ghost-c { fill: #00e5ff; opacity: 0.55; }
+    .ghost-m { fill: #ff2bd6; opacity: 0.45; }
+    .cmd   { fill: #6e7781; }
+    .ok    { fill: #3fb950; }
+    .info  { fill: #39ff14; }
+    .warn  { fill: #e3b341; }
+    .err   { fill: #ff6b6b; }
+    .crit  { fill: #ff4d4d; font-weight: bold; }
+    .heart { fill: #ff79c6; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="639" height="219" rx="10" fill="#0d1117" stroke="#30363d"/>
+
+  <rect x="0" y="0" width="640" height="29" rx="10" fill="#161b22"/>
+  <rect x="0" y="22" width="640" height="7" fill="#161b22"/>
+  <circle cx="16" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="34" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="52" cy="15" r="5" fill="#27c93f"/>
+
+  <text class="ghost-c" x="81" y="20">
+    attumm ~ pid 1337
+    <animate attributeName="x" values="81;82;80;81" keyTimes="0;0.2;0.5;1" dur="2.6s" repeatCount="indefinite"/>
+  </text>
+  <text class="ghost-m" x="79" y="20">
+    attumm ~ pid 1337
+    <animate attributeName="x" values="79;78;80;79" keyTimes="0;0.3;0.6;1" dur="3.1s" repeatCount="indefinite"/>
+  </text>
+  <text class="title" x="80" y="20">attumm ~ pid 1337</text>
+
+  <circle cx="610" cy="15" r="4" fill="#39ff14"/>
+  <circle cx="610" cy="15" r="4" fill="none" stroke="#39ff14" stroke-width="1.5">
+    <animate attributeName="r" values="4;12;4" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;0;0.7" dur="1.6s" repeatCount="indefinite"/>
+  </circle>
+
+  <clipPath id="body-clip">
+    <rect x="0" y="29" width="640" height="191"/>
+  </clipPath>
+
+  <g clip-path="url(#body-clip)">
+    <rect x="0" y="29" width="640" height="2" fill="#39ff14" opacity="0.12">
+      <animate attributeName="y" values="29;220;29" dur="4s" repeatCount="indefinite"/>
+    </rect>
+
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -528" dur="26.4s" repeatCount="indefinite" calcMode="linear"/>
+
+      <text class="cmd"  x="14" y="54">$ mv /home/amsterdam /home/warsaw</text>
+      <text class="cmd"  x="14" y="76">$ go run ./cmd/gopher</text>
+      <text class="ok"   x="14" y="98">if err != nil { return err }</text>
+      <text class="cmd"  x="14" y="120">$ systemctl enable --now gopher.service</text>
+      <text class="ok"   x="14" y="142">gopher.service enabled and started</text>
+      <text class="cmd"  x="14" y="164">$ psql -h 127.0.0.1 -d ams</text>
+      <text class="cmd"  x="14" y="186">ams=# UPDATE me SET city = 'waw';</text>
+      <text class="cmd"  x="14" y="208">$ redis-cli -h 127.0.0.1 get lambdadb</text>
+      <text class="warn" x="14" y="230">(nil) -- lambdas don't remember either</text>
+      <text class="cmd"  x="14" y="252">$ ping -c1 8.8.8.8</text>
+      <text class="heart" x="14" y="274">64 bytes from mountain-view: ttl=56 time=11ms</text>
+      <text class="cmd"  x="14" y="296">$ git log --oneline -1</text>
+      <text class="heart" x="14" y="318">a1b2c3d was it PR or CL?</text>
+      <text class="cmd"  x="14" y="340">$ crontab -l</text>
+      <text class="cmd"  x="14" y="362">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
+      <text class="cmd"  x="14" y="384">$ python -c "import this"</text>
+      <text class="info" x="14" y="406">The Zen of Python, by Tim Peters</text>
+      <text class="info" x="14" y="428">Beautiful is better than ugly.</text>
+      <text class="info" x="14" y="450">Simple is better than complex.</text>
+      <text class="info" x="14" y="472">Readability counts.</text>
+      <text class="info" x="14" y="494">Errors should never pass silently.</text>
+      <text class="info" x="14" y="516">Now is better than never.</text>
+      <text class="info" x="14" y="538">Namespaces are one honking great idea!</text>
+      <text class="heart" x="14" y="560">Although that way may not be obvious at first unless you're Dutch.</text>
+
+      <text class="cmd"  x="14" y="582">$ mv /home/amsterdam /home/warsaw</text>
+      <text class="cmd"  x="14" y="604">$ go run ./cmd/gopher</text>
+      <text class="ok"   x="14" y="626">if err != nil { return err }</text>
+      <text class="cmd"  x="14" y="648">$ systemctl enable --now gopher.service</text>
+      <text class="ok"   x="14" y="670">gopher.service enabled and started</text>
+      <text class="cmd"  x="14" y="692">$ psql -h 127.0.0.1 -d ams</text>
+      <text class="cmd"  x="14" y="714">ams=# UPDATE me SET city = 'waw';</text>
+      <text class="cmd"  x="14" y="736">$ redis-cli -h 127.0.0.1 get lambdadb</text>
+      <text class="warn" x="14" y="758">(nil) -- lambdas don't remember either</text>
+      <text class="cmd"  x="14" y="780">$ ping -c1 8.8.8.8</text>
+      <text class="heart" x="14" y="802">64 bytes from mountain-view: ttl=56 time=11ms</text>
+      <text class="cmd"  x="14" y="824">$ git log --oneline -1</text>
+      <text class="heart" x="14" y="846">a1b2c3d was it PR or CL?</text>
+      <text class="cmd"  x="14" y="868">$ crontab -l</text>
+      <text class="cmd"  x="14" y="890">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
+      <text class="cmd"  x="14" y="912">$ python -c "import this"</text>
+      <text class="info" x="14" y="934">The Zen of Python, by Tim Peters</text>
+      <text class="info" x="14" y="956">Beautiful is better than ugly.</text>
+      <text class="info" x="14" y="978">Simple is better than complex.</text>
+      <text class="info" x="14" y="1000">Readability counts.</text>
+      <text class="info" x="14" y="1022">Errors should never pass silently.</text>
+      <text class="info" x="14" y="1044">Now is better than never.</text>
+      <text class="info" x="14" y="1066">Namespaces are one honking great idea!</text>
+      <text class="heart" x="14" y="1088">Although that way may not be obvious at first unless you're Dutch.</text>
+    </g>
+  </g>
+
+  <text class="info" x="615" y="213">_
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
+  </text>
+</svg>
