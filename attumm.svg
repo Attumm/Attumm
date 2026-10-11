@@ -45,66 +45,64 @@
   </clipPath>
 
   <g clip-path="url(#body-clip)">
-    <rect x="0" y="29" width="640" height="2" fill="#39ff14" opacity="0.12">
-      <animate attributeName="y" values="29;220;29" dur="4s" repeatCount="indefinite"/>
-    </rect>
-
     <g>
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -528" dur="26.4s" repeatCount="indefinite" calcMode="linear"/>
+      <animateTransform attributeName="transform" type="translate"
+        calcMode="discrete"
+        keyTimes="0;0.3493;0.4043;0.4474;0.4833;0.5263;0.567;0.61;0.6411;0.6842;0.7273;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282"
+        values="0 0;0 -22;0 -44;0 -66;0 -88;0 -110;0 -132;0 -154;0 -176;0 -198;0 -220;0 -242;0 -264;0 -286;0 -308;0 -330;0 -352;0 -374"
+        dur="20.900s" repeatCount="indefinite"/>
 
-      <text class="cmd"  x="14" y="54">$ mv /home/amsterdam /home/warsaw</text>
-      <text class="cmd"  x="14" y="76">$ go run ./cmd/gopher</text>
-      <text class="ok"   x="14" y="98">if err != nil { return err }</text>
-      <text class="cmd"  x="14" y="120">$ systemctl enable --now gopher.service</text>
-      <text class="ok"   x="14" y="142">gopher.service enabled and started</text>
-      <text class="cmd"  x="14" y="164">$ psql -h 127.0.0.1 -d ams</text>
-      <text class="cmd"  x="14" y="186">ams=# UPDATE me SET city = 'waw';</text>
-      <text class="cmd"  x="14" y="208">$ redis-cli -h 127.0.0.1 get lambdadb</text>
-      <text class="warn" x="14" y="230">(nil) -- lambdas don't remember either</text>
-      <text class="cmd"  x="14" y="252">$ ping -c1 8.8.8.8</text>
-      <text class="heart" x="14" y="274">64 bytes from mountain-view: ttl=56 time=11ms</text>
-      <text class="cmd"  x="14" y="296">$ git log --oneline -1</text>
-      <text class="heart" x="14" y="318">a1b2c3d was it PR or CL?</text>
-      <text class="cmd"  x="14" y="340">$ crontab -l</text>
-      <text class="cmd"  x="14" y="362">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
-      <text class="cmd"  x="14" y="384">$ python -c "import this"</text>
-      <text class="info" x="14" y="406">The Zen of Python, by Tim Peters</text>
-      <text class="info" x="14" y="428">Beautiful is better than ugly.</text>
-      <text class="info" x="14" y="450">Simple is better than complex.</text>
-      <text class="info" x="14" y="472">Readability counts.</text>
-      <text class="info" x="14" y="494">Errors should never pass silently.</text>
-      <text class="info" x="14" y="516">Now is better than never.</text>
-      <text class="info" x="14" y="538">Namespaces are one honking great idea!</text>
-      <text class="heart" x="14" y="560">Although that way may not be obvious at first unless you're Dutch.</text>
+      <text class="cmd" x="14" y="54">$ </text>
+      <clipPath id="tc0"><rect x="29.6" y="38" width="0" height="20"><animate attributeName="width" from="0" to="241.8" begin="0.150s" dur="0.700s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="54" clip-path="url(#tc0)">mv /home/amsterdam /home/warsaw</text>
+      <text class="cmd" x="14" y="76">$ </text>
+      <clipPath id="tc1"><rect x="29.6" y="60" width="0" height="20"><animate attributeName="width" from="0" to="85.8" begin="1.350s" dur="0.400s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="76" clip-path="url(#tc1)">vim main.go</text>
+      <text class="warn" x="14" y="98">-- INSERT --</text>
+      <clipPath id="tc2"><rect x="14.0" y="104" width="0" height="20"><animate attributeName="width" from="0" to="218.4" begin="2.650s" dur="0.700s" fill="freeze"/></rect></clipPath>
+      <text class="ok" x="14.0" y="120" clip-path="url(#tc2)">if err != nil { return err }</text>
+      <text class="warn" x="14" y="142">book knowledge: none. muscle memory: flawless.</text>
+      <clipPath id="tc3"><rect x="14.0" y="148" width="0" height="20"><animate attributeName="width" from="0" to="23.4" begin="4.750s" dur="0.250s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14.0" y="164" clip-path="url(#tc3)">:wq</text>
+      <text class="cmd" x="14" y="186">$ </text>
+      <clipPath id="tc4"><rect x="29.6" y="170" width="0" height="20"><animate attributeName="width" from="0" to="187.2" begin="5.350s" dur="0.600s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="186" clip-path="url(#tc4)">psql -h 127.0.0.1 -d ams</text>
+      <text class="cmd" x="14" y="208">ams=# </text>
+      <clipPath id="tc5"><rect x="60.8" y="192" width="0" height="20"><animate attributeName="width" from="0" to="210.6" begin="6.250s" dur="0.800s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="60.8" y="208" clip-path="url(#tc5)">UPDATE me SET city = 'waw';</text>
+      <text class="cmd" x="14" y="230">$ </text>
+      <clipPath id="tc6"><rect x="29.6" y="214" width="0" height="20"><animate attributeName="width" from="0" to="273.0" begin="7.450s" dur="0.850s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="230" clip-path="url(#tc6)">redis-cli -h 127.0.0.1 get lambdadb</text>
+      <text class="warn" x="14" y="252">(nil) -- lambdas don't remember either</text>
+      <text class="cmd" x="14" y="274">$ </text>
+      <clipPath id="tc7"><rect x="29.6" y="258" width="0" height="20"><animate attributeName="width" from="0" to="124.8" begin="9.500s" dur="0.450s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="274" clip-path="url(#tc7)">ping -c1 8.8.8.8</text>
+      <text class="heart" x="14" y="296">64 bytes from mountain-view: ttl=56 time=11ms</text>
+      <text class="cmd" x="14" y="318">$ </text>
+      <clipPath id="tc8"><rect x="29.6" y="302" width="0" height="20"><animate attributeName="width" from="0" to="156.0" begin="11.150s" dur="0.550s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="318" clip-path="url(#tc8)">git log --oneline -1</text>
+      <text class="heart" x="14" y="340">a1b2c3d was it PR or CL?</text>
+      <text class="cmd" x="14" y="362">$ </text>
+      <clipPath id="tc9"><rect x="29.6" y="346" width="0" height="20"><animate attributeName="width" from="0" to="78.0" begin="12.900s" dur="0.350s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="362" clip-path="url(#tc9)">crontab -l</text>
+      <text class="cmd" x="14" y="384">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
+      <text class="cmd" x="14" y="406">$ </text>
+      <clipPath id="tc10"><rect x="29.6" y="390" width="0" height="20"><animate attributeName="width" from="0" to="179.4" begin="14.450s" dur="0.600s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="406" clip-path="url(#tc10)">python -c "import this"</text>
+      <text class="info" x="14" y="428">The Zen of Python, by Tim Peters</text>
+      <text class="info" x="14" y="450">Beautiful is better than ugly.</text>
+      <text class="info" x="14" y="472">Simple is better than complex.</text>
+      <text class="info" x="14" y="494">Readability counts.</text>
+      <text class="info" x="14" y="516">Errors should never pass silently.</text>
+      <text class="info" x="14" y="538">Now is better than never.</text>
+      <text class="info" x="14" y="560">Namespaces are one honking great idea!</text>
+      <text class="heart" x="14" y="582">Although that way may not be obvious at first unless you're Dutch.</text>
 
-      <text class="cmd"  x="14" y="582">$ mv /home/amsterdam /home/warsaw</text>
-      <text class="cmd"  x="14" y="604">$ go run ./cmd/gopher</text>
-      <text class="ok"   x="14" y="626">if err != nil { return err }</text>
-      <text class="cmd"  x="14" y="648">$ systemctl enable --now gopher.service</text>
-      <text class="ok"   x="14" y="670">gopher.service enabled and started</text>
-      <text class="cmd"  x="14" y="692">$ psql -h 127.0.0.1 -d ams</text>
-      <text class="cmd"  x="14" y="714">ams=# UPDATE me SET city = 'waw';</text>
-      <text class="cmd"  x="14" y="736">$ redis-cli -h 127.0.0.1 get lambdadb</text>
-      <text class="warn" x="14" y="758">(nil) -- lambdas don't remember either</text>
-      <text class="cmd"  x="14" y="780">$ ping -c1 8.8.8.8</text>
-      <text class="heart" x="14" y="802">64 bytes from mountain-view: ttl=56 time=11ms</text>
-      <text class="cmd"  x="14" y="824">$ git log --oneline -1</text>
-      <text class="heart" x="14" y="846">a1b2c3d was it PR or CL?</text>
-      <text class="cmd"  x="14" y="868">$ crontab -l</text>
-      <text class="cmd"  x="14" y="890">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
-      <text class="cmd"  x="14" y="912">$ python -c "import this"</text>
-      <text class="info" x="14" y="934">The Zen of Python, by Tim Peters</text>
-      <text class="info" x="14" y="956">Beautiful is better than ugly.</text>
-      <text class="info" x="14" y="978">Simple is better than complex.</text>
-      <text class="info" x="14" y="1000">Readability counts.</text>
-      <text class="info" x="14" y="1022">Errors should never pass silently.</text>
-      <text class="info" x="14" y="1044">Now is better than never.</text>
-      <text class="info" x="14" y="1066">Namespaces are one honking great idea!</text>
-      <text class="heart" x="14" y="1088">Although that way may not be obvious at first unless you're Dutch.</text>
+      <rect x="14" y="44" width="8" height="15" fill="#39ff14">
+        <animate attributeName="x" calcMode="linear" keyTimes="0;0.0072;0.0407;0.0574;0.0575;0.0646;0.0837;0.0957;0.0958;0.1196;0.1268;0.1603;0.1722;0.1723;0.2201;0.2273;0.2392;0.2488;0.2489;0.256;0.2847;0.2919;0.292;0.299;0.3373;0.3493;0.3494;0.3565;0.3971;0.4043;0.4044;0.4474;0.4545;0.4761;0.4833;0.4834;0.5263;0.5335;0.5598;0.567;0.5671;0.61;0.6172;0.634;0.6411;0.6412;0.6842;0.6914;0.7201;0.7273;0.7274;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282" values="29.6;29.6;271.4;271.4;29.6;29.6;115.4;115.4;115.4;14;14;232.4;232.4;232.4;14;14;37.4;37.4;29.6;29.6;216.8;216.8;60.8;60.8;271.4;271.4;29.6;29.6;302.6;302.6;302.6;29.6;29.6;154.4;154.4;154.4;29.6;29.6;185.6;185.6;185.6;29.6;29.6;107.6;107.6;107.6;29.6;29.6;209;209;209;209;209;209;209;209;209;209" dur="20.900s" repeatCount="indefinite"/>
+        <animate attributeName="y" calcMode="discrete" keyTimes="0;0.0574;0.0957;0.1196;0.1722;0.2201;0.2488;0.2919;0.3493;0.4043;0.4474;0.4833;0.5263;0.567;0.61;0.6411;0.6842;0.7273;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282" values="44;66;88;110;132;154;176;198;220;242;264;286;308;330;352;374;396;418;440;462;484;506;528;550;572" dur="20.900s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.0072;0.0407;0.0408;0.0493;0.0574;0.0646;0.0837;0.0838;0.0923;0.0957;0.1196;0.1268;0.1603;0.1604;0.1689;0.1722;0.2201;0.2273;0.2392;0.2393;0.2478;0.2488;0.256;0.2847;0.2848;0.2919;0.299;0.3373;0.3374;0.3459;0.3493;0.3565;0.3971;0.3972;0.4043;0.4474;0.4545;0.4761;0.4762;0.4833;0.5263;0.5335;0.5598;0.5599;0.567;0.61;0.6172;0.634;0.6341;0.6411;0.6842;0.6914;0.7201;0.7202;0.7273;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282" values="1;1;1;1;0;1;1;1;1;0;0;1;1;1;1;0;0;1;1;1;1;0;1;1;1;1;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;0;0;0;0;0;0;0" dur="20.900s" repeatCount="indefinite"/>
+      </rect>
     </g>
   </g>
-
-  <text class="info" x="615" y="213">_
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1s" repeatCount="indefinite" calcMode="discrete"/>
-  </text>
 </svg>
