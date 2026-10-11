@@ -45,63 +45,98 @@
   </clipPath>
 
   <g clip-path="url(#body-clip)">
-    <g>
-      <animateTransform attributeName="transform" type="translate"
-        calcMode="discrete"
-        keyTimes="0;0.3493;0.4043;0.4474;0.4833;0.5263;0.567;0.61;0.6411;0.6842;0.7273;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282"
-        values="0 0;0 -22;0 -44;0 -66;0 -88;0 -110;0 -132;0 -154;0 -176;0 -198;0 -220;0 -242;0 -264;0 -286;0 -308;0 -330;0 -352;0 -374"
-        dur="20.900s" repeatCount="indefinite"/>
+    <g transform="translate(0,0)">
+      <animateTransform attributeName="transform" type="translate" from="0 -374" to="0 0" begin="0.000s;22.200s;44.400s;66.600s;88.800s;111.000s;133.200s;155.400s;177.600s;199.800s;222.000s;244.200s;266.400s;288.600s;310.800s;333.000s;355.200s;377.400s;399.600s;421.800s;444.000s;466.200s;488.400s;510.600s;532.800s;555.000s;577.200s;599.400s;621.600s;643.800s;666.000s;688.200s;710.400s;732.600s;754.800s;777.000s;799.200s;821.400s;843.600s;865.800s;888.000s;910.200s;932.400s;954.600s;976.800s;999.000s;1021.200s;1043.400s;1065.600s;1087.800s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -22" begin="6.100s;28.300s;50.500s;72.700s;94.900s;117.100s;139.300s;161.500s;183.700s;205.900s;228.100s;250.300s;272.500s;294.700s;316.900s;339.100s;361.300s;383.500s;405.700s;427.900s;450.100s;472.300s;494.500s;516.700s;538.900s;561.100s;583.300s;605.500s;627.700s;649.900s;672.100s;694.300s;716.500s;738.700s;760.900s;783.100s;805.300s;827.500s;849.700s;871.900s;894.100s;916.300s;938.500s;960.700s;982.900s;1005.100s;1027.300s;1049.500s;1071.700s;1093.900s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -22" to="0 -44" begin="7.250s;29.450s;51.650s;73.850s;96.050s;118.250s;140.450s;162.650s;184.850s;207.050s;229.250s;251.450s;273.650s;295.850s;318.050s;340.250s;362.450s;384.650s;406.850s;429.050s;451.250s;473.450s;495.650s;517.850s;540.050s;562.250s;584.450s;606.650s;628.850s;651.050s;673.250s;695.450s;717.650s;739.850s;762.050s;784.250s;806.450s;828.650s;850.850s;873.050s;895.250s;917.450s;939.650s;961.850s;984.050s;1006.250s;1028.450s;1050.650s;1072.850s;1095.050s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -44" to="0 -66" begin="8.150s;30.350s;52.550s;74.750s;96.950s;119.150s;141.350s;163.550s;185.750s;207.950s;230.150s;252.350s;274.550s;296.750s;318.950s;341.150s;363.350s;385.550s;407.750s;429.950s;452.150s;474.350s;496.550s;518.750s;540.950s;563.150s;585.350s;607.550s;629.750s;651.950s;674.150s;696.350s;718.550s;740.750s;762.950s;785.150s;807.350s;829.550s;851.750s;873.950s;896.150s;918.350s;940.550s;962.750s;984.950s;1007.150s;1029.350s;1051.550s;1073.750s;1095.950s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -66" to="0 -88" begin="8.900s;31.100s;53.300s;75.500s;97.700s;119.900s;142.100s;164.300s;186.500s;208.700s;230.900s;253.100s;275.300s;297.500s;319.700s;341.900s;364.100s;386.300s;408.500s;430.700s;452.900s;475.100s;497.300s;519.500s;541.700s;563.900s;586.100s;608.300s;630.500s;652.700s;674.900s;697.100s;719.300s;741.500s;763.700s;785.900s;808.100s;830.300s;852.500s;874.700s;896.900s;919.100s;941.300s;963.500s;985.700s;1007.900s;1030.100s;1052.300s;1074.500s;1096.700s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -88" to="0 -110" begin="9.800s;32.000s;54.200s;76.400s;98.600s;120.800s;143.000s;165.200s;187.400s;209.600s;231.800s;254.000s;276.200s;298.400s;320.600s;342.800s;365.000s;387.200s;409.400s;431.600s;453.800s;476.000s;498.200s;520.400s;542.600s;564.800s;587.000s;609.200s;631.400s;653.600s;675.800s;698.000s;720.200s;742.400s;764.600s;786.800s;809.000s;831.200s;853.400s;875.600s;897.800s;920.000s;942.200s;964.400s;986.600s;1008.800s;1031.000s;1053.200s;1075.400s;1097.600s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -110" to="0 -132" begin="10.650s;32.850s;55.050s;77.250s;99.450s;121.650s;143.850s;166.050s;188.250s;210.450s;232.650s;254.850s;277.050s;299.250s;321.450s;343.650s;365.850s;388.050s;410.250s;432.450s;454.650s;476.850s;499.050s;521.250s;543.450s;565.650s;587.850s;610.050s;632.250s;654.450s;676.650s;698.850s;721.050s;743.250s;765.450s;787.650s;809.850s;832.050s;854.250s;876.450s;898.650s;920.850s;943.050s;965.250s;987.450s;1009.650s;1031.850s;1054.050s;1076.250s;1098.450s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -132" to="0 -154" begin="11.550s;33.750s;55.950s;78.150s;100.350s;122.550s;144.750s;166.950s;189.150s;211.350s;233.550s;255.750s;277.950s;300.150s;322.350s;344.550s;366.750s;388.950s;411.150s;433.350s;455.550s;477.750s;499.950s;522.150s;544.350s;566.550s;588.750s;610.950s;633.150s;655.350s;677.550s;699.750s;721.950s;744.150s;766.350s;788.550s;810.750s;832.950s;855.150s;877.350s;899.550s;921.750s;943.950s;966.150s;988.350s;1010.550s;1032.750s;1054.950s;1077.150s;1099.350s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -154" to="0 -176" begin="12.200s;34.400s;56.600s;78.800s;101.000s;123.200s;145.400s;167.600s;189.800s;212.000s;234.200s;256.400s;278.600s;300.800s;323.000s;345.200s;367.400s;389.600s;411.800s;434.000s;456.200s;478.400s;500.600s;522.800s;545.000s;567.200s;589.400s;611.600s;633.800s;656.000s;678.200s;700.400s;722.600s;744.800s;767.000s;789.200s;811.400s;833.600s;855.800s;878.000s;900.200s;922.400s;944.600s;966.800s;989.000s;1011.200s;1033.400s;1055.600s;1077.800s;1100.000s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -176" to="0 -198" begin="13.100s;35.300s;57.500s;79.700s;101.900s;124.100s;146.300s;168.500s;190.700s;212.900s;235.100s;257.300s;279.500s;301.700s;323.900s;346.100s;368.300s;390.500s;412.700s;434.900s;457.100s;479.300s;501.500s;523.700s;545.900s;568.100s;590.300s;612.500s;634.700s;656.900s;679.100s;701.300s;723.500s;745.700s;767.900s;790.100s;812.300s;834.500s;856.700s;878.900s;901.100s;923.300s;945.500s;967.700s;989.900s;1012.100s;1034.300s;1056.500s;1078.700s;1100.900s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -198" to="0 -220" begin="14.000s;36.200s;58.400s;80.600s;102.800s;125.000s;147.200s;169.400s;191.600s;213.800s;236.000s;258.200s;280.400s;302.600s;324.800s;347.000s;369.200s;391.400s;413.600s;435.800s;458.000s;480.200s;502.400s;524.600s;546.800s;569.000s;591.200s;613.400s;635.600s;657.800s;680.000s;702.200s;724.400s;746.600s;768.800s;791.000s;813.200s;835.400s;857.600s;879.800s;902.000s;924.200s;946.400s;968.600s;990.800s;1013.000s;1035.200s;1057.400s;1079.600s;1101.800s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -220" to="0 -242" begin="14.600s;36.800s;59.000s;81.200s;103.400s;125.600s;147.800s;170.000s;192.200s;214.400s;236.600s;258.800s;281.000s;303.200s;325.400s;347.600s;369.800s;392.000s;414.200s;436.400s;458.600s;480.800s;503.000s;525.200s;547.400s;569.600s;591.800s;614.000s;636.200s;658.400s;680.600s;702.800s;725.000s;747.200s;769.400s;791.600s;813.800s;836.000s;858.200s;880.400s;902.600s;924.800s;947.000s;969.200s;991.400s;1013.600s;1035.800s;1058.000s;1080.200s;1102.400s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -242" to="0 -264" begin="15.200s;37.400s;59.600s;81.800s;104.000s;126.200s;148.400s;170.600s;192.800s;215.000s;237.200s;259.400s;281.600s;303.800s;326.000s;348.200s;370.400s;392.600s;414.800s;437.000s;459.200s;481.400s;503.600s;525.800s;548.000s;570.200s;592.400s;614.600s;636.800s;659.000s;681.200s;703.400s;725.600s;747.800s;770.000s;792.200s;814.400s;836.600s;858.800s;881.000s;903.200s;925.400s;947.600s;969.800s;992.000s;1014.200s;1036.400s;1058.600s;1080.800s;1103.000s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -264" to="0 -286" begin="15.800s;38.000s;60.200s;82.400s;104.600s;126.800s;149.000s;171.200s;193.400s;215.600s;237.800s;260.000s;282.200s;304.400s;326.600s;348.800s;371.000s;393.200s;415.400s;437.600s;459.800s;482.000s;504.200s;526.400s;548.600s;570.800s;593.000s;615.200s;637.400s;659.600s;681.800s;704.000s;726.200s;748.400s;770.600s;792.800s;815.000s;837.200s;859.400s;881.600s;903.800s;926.000s;948.200s;970.400s;992.600s;1014.800s;1037.000s;1059.200s;1081.400s;1103.600s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -286" to="0 -308" begin="16.400s;38.600s;60.800s;83.000s;105.200s;127.400s;149.600s;171.800s;194.000s;216.200s;238.400s;260.600s;282.800s;305.000s;327.200s;349.400s;371.600s;393.800s;416.000s;438.200s;460.400s;482.600s;504.800s;527.000s;549.200s;571.400s;593.600s;615.800s;638.000s;660.200s;682.400s;704.600s;726.800s;749.000s;771.200s;793.400s;815.600s;837.800s;860.000s;882.200s;904.400s;926.600s;948.800s;971.000s;993.200s;1015.400s;1037.600s;1059.800s;1082.000s;1104.200s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -308" to="0 -330" begin="17.000s;39.200s;61.400s;83.600s;105.800s;128.000s;150.200s;172.400s;194.600s;216.800s;239.000s;261.200s;283.400s;305.600s;327.800s;350.000s;372.200s;394.400s;416.600s;438.800s;461.000s;483.200s;505.400s;527.600s;549.800s;572.000s;594.200s;616.400s;638.600s;660.800s;683.000s;705.200s;727.400s;749.600s;771.800s;794.000s;816.200s;838.400s;860.600s;882.800s;905.000s;927.200s;949.400s;971.600s;993.800s;1016.000s;1038.200s;1060.400s;1082.600s;1104.800s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -330" to="0 -352" begin="17.600s;39.800s;62.000s;84.200s;106.400s;128.600s;150.800s;173.000s;195.200s;217.400s;239.600s;261.800s;284.000s;306.200s;328.400s;350.600s;372.800s;395.000s;417.200s;439.400s;461.600s;483.800s;506.000s;528.200s;550.400s;572.600s;594.800s;617.000s;639.200s;661.400s;683.600s;705.800s;728.000s;750.200s;772.400s;794.600s;816.800s;839.000s;861.200s;883.400s;905.600s;927.800s;950.000s;972.200s;994.400s;1016.600s;1038.800s;1061.000s;1083.200s;1105.400s" dur="0.150s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -352" to="0 -374" begin="18.200s;40.400s;62.600s;84.800s;107.000s;129.200s;151.400s;173.600s;195.800s;218.000s;240.200s;262.400s;284.600s;306.800s;329.000s;351.200s;373.400s;395.600s;417.800s;440.000s;462.200s;484.400s;506.600s;528.800s;551.000s;573.200s;595.400s;617.600s;639.800s;662.000s;684.200s;706.400s;728.600s;750.800s;773.000s;795.200s;817.400s;839.600s;861.800s;884.000s;906.200s;928.400s;950.600s;972.800s;995.000s;1017.200s;1039.400s;1061.600s;1083.800s;1106.000s" dur="0.150s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0.9999;1" dur="0.5s" repeatCount="indefinite"/>
 
-      <text class="cmd" x="14" y="54">$ </text>
-      <clipPath id="tc0"><rect x="29.6" y="38" width="0" height="20"><animate attributeName="width" from="0" to="241.8" begin="0.150s" dur="0.700s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="54" clip-path="url(#tc0)">mv /home/amsterdam /home/warsaw</text>
-      <text class="cmd" x="14" y="76">$ </text>
-      <clipPath id="tc1"><rect x="29.6" y="60" width="0" height="20"><animate attributeName="width" from="0" to="85.8" begin="1.350s" dur="0.400s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="76" clip-path="url(#tc1)">vim main.go</text>
-      <text class="warn" x="14" y="98">-- INSERT --</text>
-      <clipPath id="tc2"><rect x="14.0" y="104" width="0" height="20"><animate attributeName="width" from="0" to="218.4" begin="2.650s" dur="0.700s" fill="freeze"/></rect></clipPath>
-      <text class="ok" x="14.0" y="120" clip-path="url(#tc2)">if err != nil { return err }</text>
-      <text class="warn" x="14" y="142">book knowledge: none. muscle memory: flawless.</text>
-      <clipPath id="tc3"><rect x="14.0" y="148" width="0" height="20"><animate attributeName="width" from="0" to="23.4" begin="4.750s" dur="0.250s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="14.0" y="164" clip-path="url(#tc3)">:wq</text>
-      <text class="cmd" x="14" y="186">$ </text>
-      <clipPath id="tc4"><rect x="29.6" y="170" width="0" height="20"><animate attributeName="width" from="0" to="187.2" begin="5.350s" dur="0.600s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="186" clip-path="url(#tc4)">psql -h 127.0.0.1 -d ams</text>
-      <text class="cmd" x="14" y="208">ams=# </text>
-      <clipPath id="tc5"><rect x="60.8" y="192" width="0" height="20"><animate attributeName="width" from="0" to="210.6" begin="6.250s" dur="0.800s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="60.8" y="208" clip-path="url(#tc5)">UPDATE me SET city = 'waw';</text>
-      <text class="cmd" x="14" y="230">$ </text>
-      <clipPath id="tc6"><rect x="29.6" y="214" width="0" height="20"><animate attributeName="width" from="0" to="273.0" begin="7.450s" dur="0.850s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="230" clip-path="url(#tc6)">redis-cli -h 127.0.0.1 get lambdadb</text>
-      <text class="warn" x="14" y="252">(nil) -- lambdas don't remember either</text>
-      <text class="cmd" x="14" y="274">$ </text>
-      <clipPath id="tc7"><rect x="29.6" y="258" width="0" height="20"><animate attributeName="width" from="0" to="124.8" begin="9.500s" dur="0.450s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="274" clip-path="url(#tc7)">ping -c1 8.8.8.8</text>
-      <text class="heart" x="14" y="296">64 bytes from mountain-view: ttl=56 time=11ms</text>
-      <text class="cmd" x="14" y="318">$ </text>
-      <clipPath id="tc8"><rect x="29.6" y="302" width="0" height="20"><animate attributeName="width" from="0" to="156.0" begin="11.150s" dur="0.550s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="318" clip-path="url(#tc8)">git log --oneline -1</text>
-      <text class="heart" x="14" y="340">a1b2c3d was it PR or CL?</text>
-      <text class="cmd" x="14" y="362">$ </text>
-      <clipPath id="tc9"><rect x="29.6" y="346" width="0" height="20"><animate attributeName="width" from="0" to="78.0" begin="12.900s" dur="0.350s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="362" clip-path="url(#tc9)">crontab -l</text>
-      <text class="cmd" x="14" y="384">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
-      <text class="cmd" x="14" y="406">$ </text>
-      <clipPath id="tc10"><rect x="29.6" y="390" width="0" height="20"><animate attributeName="width" from="0" to="179.4" begin="14.450s" dur="0.600s" fill="freeze"/></rect></clipPath>
-      <text class="cmd" x="29.6" y="406" clip-path="url(#tc10)">python -c "import this"</text>
-      <text class="info" x="14" y="428">The Zen of Python, by Tim Peters</text>
-      <text class="info" x="14" y="450">Beautiful is better than ugly.</text>
-      <text class="info" x="14" y="472">Simple is better than complex.</text>
-      <text class="info" x="14" y="494">Readability counts.</text>
-      <text class="info" x="14" y="516">Errors should never pass silently.</text>
-      <text class="info" x="14" y="538">Now is better than never.</text>
-      <text class="info" x="14" y="560">Namespaces are one honking great idea!</text>
-      <text class="heart" x="14" y="582">Although that way may not be obvious at first unless you're Dutch.</text>
+      <clipPath id="tc0"><rect x="14.0" y="38" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="0.000s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="54" clip-path="url(#tc0)">$ </text>
+      <clipPath id="tc1"><rect x="29.6" y="38" width="0" height="20"><animate attributeName="width" from="0" to="241.8" begin="0.150s" dur="0.700s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="54" clip-path="url(#tc1)">mv /home/amsterdam /home/warsaw</text>
+      <clipPath id="tc2"><rect x="14.0" y="60" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="1.600s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="76" clip-path="url(#tc2)">$ </text>
+      <clipPath id="tc3"><rect x="29.6" y="60" width="0" height="20"><animate attributeName="width" from="0" to="117.0" begin="1.750s" dur="0.400s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="76" clip-path="url(#tc3)">cd /home/warsaw</text>
+      <clipPath id="tc4"><rect x="14.0" y="82" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="2.600s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="98" clip-path="url(#tc4)">$ </text>
+      <clipPath id="tc5"><rect x="29.6" y="82" width="0" height="20"><animate attributeName="width" from="0" to="85.8" begin="2.750s" dur="0.400s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="98" clip-path="url(#tc5)">vim main.go</text>
+      <clipPath id="tc6"><rect x="14.0" y="104" width="0" height="20"><animate attributeName="width" from="0" to="93.6" begin="3.400s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="120" clip-path="url(#tc6)">package main</text>
+      <clipPath id="tc7"><rect x="14.0" y="126" width="0" height="20"><animate attributeName="width" from="0" to="101.4" begin="3.900s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="142" clip-path="url(#tc7)">func main() {</text>
+      <clipPath id="tc8"><rect x="14.0" y="148" width="0" height="20"><animate attributeName="width" from="0" to="249.6" begin="4.400s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="ok" x="14" y="164" clip-path="url(#tc8)">    if err != nil { return err }</text>
+      <clipPath id="tc9"><rect x="14.0" y="170" width="0" height="20"><animate attributeName="width" from="0" to="7.8" begin="5.000s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="186" clip-path="url(#tc9)">}</text>
+      <clipPath id="tc10"><rect x="14.0" y="192" width="0" height="20"><animate attributeName="width" from="0" to="23.4" begin="5.650s" dur="0.250s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14.0" y="208" clip-path="url(#tc10)">:wq</text>
+      <clipPath id="tc11"><rect x="14.0" y="214" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="6.100s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="230" clip-path="url(#tc11)">$ </text>
+      <clipPath id="tc12"><rect x="29.6" y="214" width="0" height="20"><animate attributeName="width" from="0" to="273.0" begin="6.250s" dur="0.850s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="230" clip-path="url(#tc12)">redis-cli -h 127.0.0.1 get lambdadb</text>
+      <clipPath id="tc13"><rect x="14.0" y="236" width="0" height="20"><animate attributeName="width" from="0" to="296.4" begin="7.250s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="warn" x="14" y="252" clip-path="url(#tc13)">(nil) -- lambdas don't remember either</text>
+      <clipPath id="tc14"><rect x="14.0" y="258" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="8.150s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="274" clip-path="url(#tc14)">$ </text>
+      <clipPath id="tc15"><rect x="29.6" y="258" width="0" height="20"><animate attributeName="width" from="0" to="124.8" begin="8.300s" dur="0.450s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="274" clip-path="url(#tc15)">ping -c1 8.8.8.8</text>
+      <clipPath id="tc16"><rect x="14.0" y="280" width="0" height="20"><animate attributeName="width" from="0" to="351.0" begin="8.900s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="heart" x="14" y="296" clip-path="url(#tc16)">64 bytes from mountain-view: ttl=56 time=11ms</text>
+      <clipPath id="tc17"><rect x="14.0" y="302" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="9.800s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="318" clip-path="url(#tc17)">$ </text>
+      <clipPath id="tc18"><rect x="29.6" y="302" width="0" height="20"><animate attributeName="width" from="0" to="156.0" begin="9.950s" dur="0.550s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="318" clip-path="url(#tc18)">git log --oneline -1</text>
+      <clipPath id="tc19"><rect x="14.0" y="324" width="0" height="20"><animate attributeName="width" from="0" to="187.2" begin="10.650s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="heart" x="14" y="340" clip-path="url(#tc19)">1337c0d was it PR or CL?</text>
+      <clipPath id="tc20"><rect x="14.0" y="346" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="11.550s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="362" clip-path="url(#tc20)">$ </text>
+      <clipPath id="tc21"><rect x="29.6" y="346" width="0" height="20"><animate attributeName="width" from="0" to="78.0" begin="11.700s" dur="0.350s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="362" clip-path="url(#tc21)">crontab -l</text>
+      <clipPath id="tc22"><rect x="14.0" y="368" width="0" height="20"><animate attributeName="width" from="0" to="351.0" begin="12.200s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="384" clip-path="url(#tc22)">0 6 * * 1,5 lot-flight.sh --from=WAW --to=AMS</text>
+      <clipPath id="tc23"><rect x="14.0" y="390" width="0" height="20"><animate attributeName="width" from="0" to="15.6" begin="13.100s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="14" y="406" clip-path="url(#tc23)">$ </text>
+      <clipPath id="tc24"><rect x="29.6" y="390" width="0" height="20"><animate attributeName="width" from="0" to="179.4" begin="13.250s" dur="0.600s" fill="freeze"/></rect></clipPath>
+      <text class="cmd" x="29.6" y="406" clip-path="url(#tc24)">python -c "import this"</text>
+      <clipPath id="tc25"><rect x="14.0" y="412" width="0" height="20"><animate attributeName="width" from="0" to="249.6" begin="14.000s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="428" clip-path="url(#tc25)">The Zen of Python, by Tim Peters</text>
+      <clipPath id="tc26"><rect x="14.0" y="434" width="0" height="20"><animate attributeName="width" from="0" to="234.0" begin="14.600s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="450" clip-path="url(#tc26)">Beautiful is better than ugly.</text>
+      <clipPath id="tc27"><rect x="14.0" y="456" width="0" height="20"><animate attributeName="width" from="0" to="234.0" begin="15.200s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="472" clip-path="url(#tc27)">Simple is better than complex.</text>
+      <clipPath id="tc28"><rect x="14.0" y="478" width="0" height="20"><animate attributeName="width" from="0" to="148.2" begin="15.800s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="494" clip-path="url(#tc28)">Readability counts.</text>
+      <clipPath id="tc29"><rect x="14.0" y="500" width="0" height="20"><animate attributeName="width" from="0" to="265.2" begin="16.400s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="516" clip-path="url(#tc29)">Errors should never pass silently.</text>
+      <clipPath id="tc30"><rect x="14.0" y="522" width="0" height="20"><animate attributeName="width" from="0" to="195.0" begin="17.000s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="538" clip-path="url(#tc30)">Now is better than never.</text>
+      <clipPath id="tc31"><rect x="14.0" y="544" width="0" height="20"><animate attributeName="width" from="0" to="296.4" begin="17.600s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="info" x="14" y="560" clip-path="url(#tc31)">Namespaces are one honking great idea!</text>
+      <clipPath id="tc32"><rect x="14.0" y="566" width="0" height="20"><animate attributeName="width" from="0" to="514.8" begin="18.200s" dur="0.080s" fill="freeze"/></rect></clipPath>
+      <text class="heart" x="14" y="582" clip-path="url(#tc32)">Although that way may not be obvious at first unless you're Dutch.</text>
 
       <rect x="14" y="44" width="8" height="15" fill="#39ff14">
-        <animate attributeName="x" calcMode="linear" keyTimes="0;0.0072;0.0407;0.0574;0.0575;0.0646;0.0837;0.0957;0.0958;0.1196;0.1268;0.1603;0.1722;0.1723;0.2201;0.2273;0.2392;0.2488;0.2489;0.256;0.2847;0.2919;0.292;0.299;0.3373;0.3493;0.3494;0.3565;0.3971;0.4043;0.4044;0.4474;0.4545;0.4761;0.4833;0.4834;0.5263;0.5335;0.5598;0.567;0.5671;0.61;0.6172;0.634;0.6411;0.6412;0.6842;0.6914;0.7201;0.7273;0.7274;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282" values="29.6;29.6;271.4;271.4;29.6;29.6;115.4;115.4;115.4;14;14;232.4;232.4;232.4;14;14;37.4;37.4;29.6;29.6;216.8;216.8;60.8;60.8;271.4;271.4;29.6;29.6;302.6;302.6;302.6;29.6;29.6;154.4;154.4;154.4;29.6;29.6;185.6;185.6;185.6;29.6;29.6;107.6;107.6;107.6;29.6;29.6;209;209;209;209;209;209;209;209;209;209" dur="20.900s" repeatCount="indefinite"/>
-        <animate attributeName="y" calcMode="discrete" keyTimes="0;0.0574;0.0957;0.1196;0.1722;0.2201;0.2488;0.2919;0.3493;0.4043;0.4474;0.4833;0.5263;0.567;0.61;0.6411;0.6842;0.7273;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282" values="44;66;88;110;132;154;176;198;220;242;264;286;308;330;352;374;396;418;440;462;484;506;528;550;572" dur="20.900s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.0072;0.0407;0.0408;0.0493;0.0574;0.0646;0.0837;0.0838;0.0923;0.0957;0.1196;0.1268;0.1603;0.1604;0.1689;0.1722;0.2201;0.2273;0.2392;0.2393;0.2478;0.2488;0.256;0.2847;0.2848;0.2919;0.299;0.3373;0.3374;0.3459;0.3493;0.3565;0.3971;0.3972;0.4043;0.4474;0.4545;0.4761;0.4762;0.4833;0.5263;0.5335;0.5598;0.5599;0.567;0.61;0.6172;0.634;0.6341;0.6411;0.6842;0.6914;0.7201;0.7202;0.7273;0.756;0.7847;0.8134;0.8421;0.8708;0.8995;0.9282" values="1;1;1;1;0;1;1;1;1;0;0;1;1;1;1;0;0;1;1;1;1;0;1;1;1;1;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;0;0;0;0;0;0;0" dur="20.900s" repeatCount="indefinite"/>
+        <animate attributeName="x" calcMode="linear" keyTimes="0;0.0068;0.0383;0.0721;0.0722;0.0788;0.0968;0.1171;0.1172;0.1239;0.1419;0.1532;0.1533;0.1757;0.1982;0.2252;0.2477;0.2545;0.2658;0.2748;0.2749;0.2815;0.3198;0.3266;0.3267;0.3671;0.3739;0.3941;0.4009;0.401;0.4414;0.4482;0.473;0.4797;0.4798;0.5203;0.527;0.5428;0.5495;0.5496;0.5901;0.5968;0.6239;0.6306;0.6307;0.6577;0.6847;0.7117;0.7387;0.7658;0.7928;0.8198" values="29.6;29.6;271.4;271.4;29.6;29.6;146.6;146.6;29.6;29.6;115.4;115.4;115.4;115.4;115.4;115.4;14;14;37.4;37.4;29.6;29.6;302.6;302.6;302.6;29.6;29.6;154.4;154.4;154.4;29.6;29.6;185.6;185.6;185.6;29.6;29.6;107.6;107.6;107.6;29.6;29.6;209;209;209;209;209;209;209;209;209;209" dur="22.200s" repeatCount="indefinite"/>
+        <animate attributeName="y" calcMode="discrete" keyTimes="0;0.0721;0.1171;0.1532;0.1757;0.1982;0.2252;0.2477;0.2748;0.3266;0.3671;0.4009;0.4414;0.4797;0.5203;0.5495;0.5901;0.6306;0.6577;0.6847;0.7117;0.7387;0.7658;0.7928;0.8198" values="44;66;88;110;132;154;176;198;220;242;264;286;308;330;352;374;396;418;440;462;484;506;528;550;572" dur="22.200s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" calcMode="discrete" keyTimes="0;0.0068;0.0383;0.0384;0.0608;0.0721;0.0788;0.0968;0.0969;0.1171;0.1239;0.1419;0.142;0.1532;0.1757;0.1982;0.2252;0.2477;0.2545;0.2658;0.2659;0.2748;0.2815;0.3198;0.3199;0.3266;0.3671;0.3739;0.3941;0.3942;0.4009;0.4414;0.4482;0.473;0.4731;0.4797;0.5203;0.527;0.5428;0.5429;0.5495;0.5901;0.5968;0.6239;0.624;0.6306;0.6577;0.6847;0.7117;0.7387;0.7658;0.7928;0.8198" values="1;1;1;1;0;1;1;1;1;1;1;1;1;0;0;0;0;1;1;1;1;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;1;1;1;1;0;0;0;0;0;0;0;0" dur="22.200s" repeatCount="indefinite"/>
       </rect>
     </g>
   </g>
